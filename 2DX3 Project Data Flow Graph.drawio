@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="mcqBIhDiAoKMSewykK3K">
+    <mxGraphModel dx="378" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="700" pageHeight="1300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-39" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="ToF sensor" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-38" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-2" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="MCU" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-37" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-3" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Data parsing function" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-36" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Main data processing" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-35" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Raw data dictionary" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Distance (mm, uint16_t)&lt;div&gt;Signal rate&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;uint16_t)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Ambient rate (&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;uint16_t)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Number of SPADs&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(uint16_t)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;RangeStatus&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(uint8_t)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Distance (mm), Angle (steps), Signal rate (kcps), Ambient rate (kcps), number of SPADs, RangeStatus, status, invalid (string)" vertex="1">
+          <mxGeometry height="90" width="230" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Distance (mm, int)&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="122" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Distance (mm, int)&lt;div&gt;&lt;div&gt;Raw Angle (steps, int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;x (mm, int)&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-34" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Error Handling" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Index (int)&lt;/div&gt;Distance (mm, int)&lt;div&gt;&lt;div&gt;Raw Angle (steps, int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;x (mm, int)&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="30" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-33" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Secondary error corretion" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Distance (mm, int)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;- Updated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Raw Angle (steps, int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;x (mm, int)&lt;/div&gt;&lt;div&gt;y (mm, float) &amp;lt;- Updated&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;- Updated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="500" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-30" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-18" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-18" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Array of XYZ coordinate data" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x (mm, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="60" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-31" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-20" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-20" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Processed data dictionary" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Distance (mm, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;Raw Angle (steps, int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;x (mm, int)&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;- Updated&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="30" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-29" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-22" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="hwyYBYPfimS3WDxV1ilC-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Data&lt;div&gt;written to XYZ file&lt;div&gt;---------------------------&lt;/div&gt;&lt;div&gt;Data written to raw CSV file&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Distance (mm, int) (original)&lt;div&gt;&lt;div&gt;Raw Angle (steps, int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Angle (radians/pi, float)&lt;/div&gt;&lt;div&gt;x (mm, int)&lt;/div&gt;&lt;div&gt;y (mm, float) (original)&lt;/div&gt;&lt;div&gt;z (mm, float)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(original)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Signal rate (kcps, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Ambient rate (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;kcps,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;number of SPADs (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RangeStatus (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;status (int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;invalid (int)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-28" edge="1" parent="1" source="hwyYBYPfimS3WDxV1ilC-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" target="hwyYBYPfimS3WDxV1ilC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Point cloud mesh visualization" vertex="1">
+          <mxGeometry height="80" width="120" x="402" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x (mm, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="100" x="510" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Wireframe model visualization" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x (mm, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;&lt;div&gt;and&lt;/div&gt;&lt;div&gt;List of coordinates numbers that should be connected&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="130" x="230" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x (mm, int)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;y (mm, float)&lt;/div&gt;&lt;div&gt;z (mm, float)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" x="415" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Infrared light (940nm ± 30nm)" vertex="1">
+          <mxGeometry height="30" width="100" x="550" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hwyYBYPfimS3WDxV1ilC-41" edge="1" parent="1" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.823;entryY=0.128;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;entryPerimeter=0;" target="hwyYBYPfimS3WDxV1ilC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="30" as="sourcePoint" />
+            <mxPoint x="540" y="64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
