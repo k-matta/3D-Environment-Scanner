@@ -1,4 +1,4 @@
-# The COMPENG 2DX3 Final Project
+# Indoor Environment Scanner (McMaster COMPENG 2DX3 Final Project)
 ### Purpose:
 The purpose of this project is to design, build, and test a device to create 3D maps of indoor enviironments. The project would involve combining a microcontroller, time-of-flight (ToF) sensor, a motor, and a PC to run processing on the collected data.
 
