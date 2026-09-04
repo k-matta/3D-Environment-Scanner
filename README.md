@@ -23,7 +23,7 @@ After setting up the 3D Environment Scanner, run the `Hallway_Scan_App.py` file 
 After using the 3D Environment Scanner, the data visualization process will begin automatically, first showing the scan as a 3D point cloud, and then showing it as a wireframe model. In both cases, the pop-up windows support click-and-drag controls to view the data from multiple angles in addition to pinch gestures to zoom in and out. After both visualization windows have been closed and the program shuts down, there will be two new files in the folder with the PC application. One will be a `.xyz` file containing the data points used for visualization, and the other will be a `.csv` file containing raw measurement data. If the `.xyz` file is lost, at the start of the next “read” or “append” operation involving this file, the `.csv` file will be used to regenerate the missing data.
 
 #### Program output:
-<img src='Scan-1.png'/>
+<img src='Scan.png'/>
 
 #### Actual hallway:
-<img src='Hallway-1.png'/>
+<img src='Hallway.png'/>
